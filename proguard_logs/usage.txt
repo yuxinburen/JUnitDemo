@@ -1,0 +1,11 @@
+com.davie.junitdemo.BuildConfig
+com.davie.junitdemo.MainActivity:
+    33:36:public boolean isEmpty(java.lang.String)
+com.davie.junitdemo.R
+com.davie.junitdemo.R$attr
+com.davie.junitdemo.R$drawable
+com.davie.junitdemo.R$layout
+com.davie.junitdemo.R$string
+com.davie.junitdemo.StringUtils:
+    9:9:public StringUtils()
+    12:18:public static boolean isEmpty(java.lang.String)

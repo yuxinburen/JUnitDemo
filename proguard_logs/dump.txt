@@ -1,0 +1,194 @@
+_____________________________________________________________________
++ Program class: com/davie/junitdemo/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.davie.junitdemo.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 35):
+  + Integer [2130903040]
+  + String [,]
+  + String [bc]
+  + Class [[Ljava/lang/String;]
+  + Class [android/app/Activity]
+  + Class [com/davie/junitdemo/MainActivity]
+  + Class [com/davie/junitdemo/a]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [com/davie/junitdemo/MainActivity.a (II)I]
+  + Methodref [com/davie/junitdemo/MainActivity.setContentView (I)V]
+  + Methodref [com/davie/junitdemo/a.a (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (II)I]
+  + NameAndType [a (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(II)I]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;]
+  + Utf8 [,]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [StackMapTable]
+  + Utf8 [[Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [bc]
+  + Utf8 [com/davie/junitdemo/MainActivity]
+  + Utf8 [com/davie/junitdemo/a]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #8
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 63, locals = 8, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #9
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #11
+        + Methodref [com/davie/junitdemo/MainActivity.setContentView (I)V]
+      [11] iconst_3
+      [12] istore_2 v2
+      [13] iconst_5
+      [14] istore_3 v3
+      [15] aload_0 v0
+      [16] iload_2 v2
+      [17] iload_3 v3
+      [18] invokevirtual #10
+        + Methodref [com/davie/junitdemo/MainActivity.a (II)I]
+      [21] istore v4
+      [23] iconst_5
+      [24] iload v4
+      [26] ificmpne +3 (target=29)
+      [29] ldc #3
+        + String [bc]
+      [31] ldc #2
+        + String [,]
+      [33] invokestatic #12
+        + Methodref [com/davie/junitdemo/a.a (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;]
+      [36] astore v5
+      [38] iconst_0
+      [39] istore v6
+      [41] iload v6
+      [43] aload v5
+      [45] arraylength
+      [46] ificmpge +16 (target=62)
+      [49] aload v5
+      [51] iload v6
+      [53] aaload
+      [54] astore v7
+      [56] iinc v6, 1
+      [59] goto -18 (target=41)
+      [62] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [29] Var: ...[i][i][i], Stack: (empty)
+        - [41] Var: ...[a:[Ljava/lang/String;][i], Stack: (empty)
+        - [62] Var: -1, Stack: (empty)
+  + Method:       a(II)I
+    Access flags: 0x1
+      = public int a(int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 4, stack = 2):
+      [0] iload_1 v1
+      [1] istore_3 v3
+      [2] iload_1 v1
+      [3] iload_2 v2
+      [4] ificmple +8 (target=12)
+      [7] iload_1 v1
+      [8] istore_3 v3
+      [9] goto +5 (target=14)
+      [12] iload_2 v2
+      [13] istore_3 v3
+      [14] iload_3 v3
+      [15] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [12] Var: ...[i], Stack: (empty)
+        - [14] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/davie/junitdemo/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.davie.junitdemo.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 17):
+  + Class [[Ljava/lang/String;]
+  + Class [com/davie/junitdemo/a]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
+  + NameAndType [split (Ljava/lang/String;)[Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)[Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;]
+  + Utf8 [Code]
+  + Utf8 [StackMapTable]
+  + Utf8 [[Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [com/davie/junitdemo/a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [split]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       a(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String[] a(java.lang.String,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 18, locals = 3, stack = 2):
+      [0] aconst_null
+      [1] astore_2 v2
+      [2] aload_0 v0
+      [3] ifnull +13 (target=16)
+      [6] aload_1 v1
+      [7] ifnull +9 (target=16)
+      [10] aload_0 v0
+      [11] aload_1 v1
+      [12] invokevirtual #5
+        + Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
+      [15] astore_2 v2
+      [16] aload_2 v2
+      [17] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [16] Var: ...[a:[Ljava/lang/String;], Stack: (empty)
+
+Class file attributes (count = 0):
+

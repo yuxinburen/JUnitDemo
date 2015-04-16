@@ -1,0 +1,5 @@
+com.davie.junitdemo.MainActivity -> com.davie.junitdemo.MainActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    int max(int,int) -> a
+com.davie.junitdemo.StringUtils -> com.davie.junitdemo.a:
+    java.lang.String[] splitString(java.lang.String,java.lang.String) -> a

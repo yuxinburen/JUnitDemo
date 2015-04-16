@@ -1,0 +1,5 @@
+com.davie.junitdemo.MainActivity
+com.davie.junitdemo.MainActivity: MainActivity()
+com.davie.junitdemo.R$drawable: int ic_launcher
+com.davie.junitdemo.R$layout: int main
+com.davie.junitdemo.R$string: int app_name
